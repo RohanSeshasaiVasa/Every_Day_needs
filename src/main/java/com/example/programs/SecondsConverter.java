@@ -11,5 +11,6 @@ public class SecondsConverter {
         int minutes = rseconds/60;
         int secs = seconds%60;
         System.out.println( hours + " Hours " + minutes + " Minutes " + secs + " Seconds ");
+        sc.close();
     }    
 }

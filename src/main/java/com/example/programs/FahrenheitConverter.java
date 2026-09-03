@@ -7,5 +7,6 @@ public class FahrenheitConverter {
         double fahrenheit = sc.nextDouble();
         double celsius = (fahrenheit - 32) * 5 / 9; 
         System.out.println("Fahrenheit temparature: " +  fahrenheit + "°F" + "\n" + "Celcius temparature: " + celsius);
+        sc.close();
     }
 }

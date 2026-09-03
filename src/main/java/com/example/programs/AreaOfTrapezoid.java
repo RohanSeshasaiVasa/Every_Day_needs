@@ -11,5 +11,6 @@ public class AreaOfTrapezoid {
         double height = sc.nextDouble();
         double Area = 0.5 * (base1 + base2) * height;
         System.out.println("Area of the trapezoid is: " + Area);
+        sc.close();
     }
 }

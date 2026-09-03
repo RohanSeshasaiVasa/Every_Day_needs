@@ -15,5 +15,6 @@ public class PyramidAreaCalculator {
         System.out.println("Length is: " + length + "\n" + "Width is: " + width + "\n" + "Height is: " + height);
         System.out.println("Base Area of the pyramid is: " + baseArea);
         System.out.println("Volume of the pyramid is: " + volume);
+        sc.close();
     }
 }

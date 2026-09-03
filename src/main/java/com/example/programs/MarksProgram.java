@@ -43,5 +43,6 @@ public class MarksProgram {
         System.out.println("Moral values: " + msci);
         System.out.println("Total marks you got for 10 subjects is: " + total);
         System.out.println("Percentage marks you got  for 10 subjects is: " + average);
+        sc.close();
     }
 }
