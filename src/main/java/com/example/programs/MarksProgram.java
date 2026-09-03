@@ -1,7 +1,7 @@
 package com.example.programs;
 import java.util.Scanner;
 public class MarksProgram {
-    public static void run(String[] args){
+    public static void run(){
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter you name");
         String name = sc.nextLine();
