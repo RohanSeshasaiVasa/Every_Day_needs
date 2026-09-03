@@ -11,7 +11,7 @@ WORKDIR $HOME
 COPY . $HOME
 
 # If you have a Vaadin Pro key, pass it as a secret with id "proKey":
-#
+#   
 #   $ docker build --secret id=proKey,src=$HOME/.vaadin/proKey .
 #
 # If you have a Vaadin Offline key, pass it as a secret with id "offlineKey":
