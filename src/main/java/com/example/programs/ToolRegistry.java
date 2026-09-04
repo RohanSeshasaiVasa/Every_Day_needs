@@ -11,6 +11,11 @@ public class ToolRegistry {
         new ToolEntry("loan-calculator", "Loan Calculator", InterestCalculator::run),
         new ToolEntry("kilometerpersecond-converter", "Convert Kilometer per hour to meter per second", KmphToMs::run),
         new ToolEntry("perimeterarea-calculator", "Perimeter and area of a circle", PerimeterOfCirecleCalculator::run),
-        new ToolEntry("age-calculator", "Age Calculator", AgeCalculator::run)
+        new ToolEntry("age-calculator", "Age Calculator", AgeCalculator::run),
+        new ToolEntry("bmi-calculator", "BMI Calculator", BMICalculator::run),
+        new ToolEntry("discount-calculator", "Discount Calculator", DiscountCalculator::run),
+        new ToolEntry("prime-checker", "Prime Checker", PrimeChecker::run),
+        new ToolEntry("bill-splitter", "Bill Splitter", BillSplitter::run),
+        new ToolEntry("bmr-calculator", "BMR Calculator", BMRCalculator::run)
     );
 }
