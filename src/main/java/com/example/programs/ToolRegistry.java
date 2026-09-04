@@ -9,6 +9,8 @@ public class ToolRegistry {
         new ToolEntry("fahrenheit-converter", "Convert fahrenheit to Celcius", FahrenheitConverter::run),
         new ToolEntry("trapezoid-area", "Area of a trapezoid", AreaOfTrapezoid::run),
         new ToolEntry("loan-calculator", "Loan Calculator", InterestCalculator::run),
-        new ToolEntry("kilometerpersecond-converter", "Convert Kilometer per hour to meter per second", KmphToMs::run)
+        new ToolEntry("kilometerpersecond-converter", "Convert Kilometer per hour to meter per second", KmphToMs::run),
+        new ToolEntry("perimeterarea-calculator", "Perimeter and area of a circle", PerimeterOfCirecleCalculator::run),
+        new ToolEntry("age-calculator", "Age Calculator", AgeCalculator::run)
     );
 }
