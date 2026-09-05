@@ -3,14 +3,18 @@ import java.util.Scanner;
 public class BMRCalculator {
     public static void run() {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter your weight in kilograms");
+        System.out.print("Enter your weight in kilograms: ");
         double weight = sc.nextDouble();
-        System.out.println("Enter your height(In centimeters)");
+        System.out.println(weight);
+        System.out.print("Enter your height(In centimeters): ");
         double height = sc.nextDouble();
-        System.out.println("Enter your age in Years");
+        System.out.println(height);
+        System.out.print("Enter your age in Years: ");
         int age = sc.nextInt();
-        System.out.println("Enter your gender(M for Men, F for Female)");
+        System.out.println(age);
+        System.out.print("Enter your gender(M for Men, F for Female): ");
         String gender = sc.next().toUpperCase();
+        System.out.println(gender);
         sc.close();
 
         double bmr = gender.equals("M") ? 10 * weight + 6.25 * height - 5 * age + 5 : 10 * weight + 6.25 * height - 5 * age - 161; 

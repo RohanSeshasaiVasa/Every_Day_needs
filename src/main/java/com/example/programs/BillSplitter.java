@@ -4,12 +4,15 @@ import java.util.Scanner;
 public class BillSplitter {
     public static void run() {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter the total bill amount");
+        System.out.print("Enter the total bill amount: ");
         double bill = sc.nextDouble();
-        System.out.println("Enter the amount of people splitting the bill");
+        System.out.println(bill);
+        System.out.print("Enter the amount of people splitting the bill: ");
         int people = sc.nextInt();
-        System.out.println("Enter the tip percentage(Enter 0 if none)");
+        System.out.println(people);
+        System.out.print("Enter the tip percentage(Enter 0 if none): ");
         double tipPercent = sc.nextDouble();
+        System.out.println(tipPercent + "%");
         sc.close();
         double tipAmount = bill * tipPercent / 100.0;
         double totalWithTip = bill + tipAmount;

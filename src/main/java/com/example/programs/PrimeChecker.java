@@ -3,8 +3,9 @@ import java.util.Scanner;
 public class PrimeChecker {
     public static void run() {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter a whole number to check whether it is a prime number or not");
+        System.out.print("Enter a whole number to check whether it is a prime number or not: ");
         int number = sc.nextInt();
+        System.out.println(number);
         sc.close();
         
         boolean isPrime = number >= 2;

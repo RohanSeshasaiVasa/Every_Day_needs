@@ -4,10 +4,12 @@ import java.util.Scanner;
 public class BMICalculator {
     public static void run() {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter your weight in kilograms");
+        System.out.print("Enter your weight in kilograms: ");
         double weight = sc.nextDouble();
-        System.out.println("Enter your height in meters");
+        System.out.println(weight);
+        System.out.print("Enter your height in meters: ");
         double height  = sc.nextDouble();
+        System.out.println(height);
         sc.close();
         double bmi = weight / (height * height);
         

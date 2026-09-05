@@ -4,8 +4,9 @@ import java.util.Scanner;
 public class PerimeterOfCirecleCalculator {
     public static void run() {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter the radius");
+        System.out.print("Enter the radius: ");
         double radius = sc.nextDouble();
+        System.out.println(radius);
         sc.close();
         final double PI = 3.14;
         double perimeter = 2 * PI * radius;

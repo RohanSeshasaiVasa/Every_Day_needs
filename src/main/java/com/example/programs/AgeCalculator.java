@@ -6,12 +6,15 @@ import java.util.Scanner;
 public class AgeCalculator {
     public static void run() {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter your Birth year");
+        System.out.print("Enter your Birth year: ");
         int year = sc.nextInt();
-        System.out.println("Enter your Birth month(In numbers)");
+        System.out.println(year);
+        System.out.print("Enter your Birth month(In numbers): ");
         int month = sc.nextInt();
-        System.out.println("Enter your birth day");
+        System.out.println(month);
+        System.out.print("Enter your birth day: ");
         int day = sc.nextInt();
+        System.out.println(day);
         sc.close();
 
         LocalDate birthDate = LocalDate.of(year, month, day);

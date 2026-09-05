@@ -4,10 +4,12 @@ import java.util.Scanner;
 public class DiscountCalculator {
     public static void run() {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter the Total price");
+        System.out.print("Enter the Total price: ");
         double TotalPrice = sc.nextDouble();
-        System.out.println("Enter the discount percent");
+        System.out.println(TotalPrice);
+        System.out.print("Enter the discount percent: ");
         double DiscountPercent = sc.nextDouble();
+        System.out.println(DiscountPercent + "%");
         sc.close();
         double DiscountAmount = TotalPrice * DiscountPercent / 100.0;
         double FinalPrice = TotalPrice - DiscountAmount;
